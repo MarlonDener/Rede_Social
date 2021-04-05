@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	background-color: #F6F6F9;
+	height: 100%;
+}
+.sidebar{
+	width: 30%;
+	height: 100%;
+	background: #EAEAF4;
+	position: absolute;
+}
+.form-container-login{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	align-items: flex-start;
+}
+.logo-chamada-login{
+	width: 40%;
+	margin-right: 40px;
+}
+.logo-text{
+	font-size: 30px;
+	color: #444294;
+	font-weight: 700;
+	text-shadow: 5px 2px 4px #444294;
+	margin: 10px 0;
+}
+.form-login{
+	width: 60%;
+	text-align: center;
+
+}
+.form-login input[type=text],.form-login input[type=password]{
+	width: 100%;
+	height: 45px;
+	box-shadow: 2px 5px 5px 2px rgba(0,0,0,0.1);
+	border:1px solid #EBEBEB;
+	margin:10px 0;
+	padding-left: 6px;
+	background: #fff;
+	outline: none;
+	border-radius: 8px;
+}
+.form-login input[type=submit]{	
+	margin-top: 10px;
+	cursor: pointer;
+	box-shadow: 2px 5px 5px 2px rgba(0,0,0,0.1);
+	width: 100%;
+	height: 45px;
+	background: #444294 padding-box;
+	border:1px solid #EBEBEB;
+	outline: none;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 16px;
+}
+.form-login{
+	background: #EBEBEB;
+	padding: 20px;
+	margin: 0 auto;
+	box-shadow: 1px 2px 20px 3px rgba(0,0,0,0.1),
+				0 3px 10px 1px rgba(0,0,0,0.1);
+}
+form h3{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.form-login a{
+	cursor: pointer;
+	display: inline-block;
+	margin: 10px 0;
+	width: 50%;
+	border:2px solid #444294;
+	border-radius: 10px;
+	text-align: center;
+	text-decoration: none;
+	padding: 4px 20px;
+	color: #444294;
+	transition: 0.4s linear;
+}
+.form-login a:hover{
+	background: #444294;
+	color: #fff;
+}
+@media (max-width: 800px){
+
+.form-container-login{
+	position: static;
+	top: 0%;
+	left: 0%;
+	transform: translate(0%,0%);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.logo-chamada-login{
+	width: 90%;
+	margin-right: 40px;
+	text-align: center;
+	padding: 20px 0;
+}
+.logo-text{
+	font-size: 30px;
+	color: #444294;
+	font-weight: 700;
+	text-shadow: 5px 2px 4px #444294;
+	margin: 10px 0;
+}
+.form-login{
+	width: 90%;
+	text-align: center;
+}
+.form-login a{
+	width: 80%;
+}
+
+}

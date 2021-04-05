@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+html,body{
+	background-color: #F6F6F9;
+	height: 100%;
+}
+
+.main-feed{
+	display: flex;
+	height: 100%;
+}
+.sidebar{
+	text-align: center;
+	width: 247px;
+	background: rgb(26,24,25,0.8);
+	padding: 20px 50px;
+	height: 100%;
+	color: #fff;
+}
+.feed{
+	width:calc(100% - 247px);
+	padding: 20px;
+	display: flex;
+	overflow-y: auto;
+}
+li{
+	list-style: none;
+	padding: 4px 0px;
+}
+.menu-sidebar{
+	margin-top: 30px;
+	text-align: left;
+}
+.logo-sidebar h4{
+	color: #F6F6F9;
+	font-size: 30px;
+	font-weight: lighter;
+}
+.menu-sidebar ul li a{
+text-decoration: none;
+text-transform: uppercase;
+color: #F6F6F9;	
+transition: 0.2s linear;
+}
+.menu-sidebar ul li a:hover{
+	border:2px solid rgba(255,255,255,0.9);
+	box-shadow: 1px 1px 4px 1px rgba(255,255,255,0.1);
+	padding: 7px 10px;
+	background-color: black;
+}
+
+.menu-sidebar ul li{
+text-align: left;
+padding: 15px 0px;
+}
+.menu-sidebar i{
+	padding-right:9px;
+}
+.feed-single-post{
+	padding: 30px;
+	border-radius: 10px;
+	background: #fff;
+	border:1px solid #ccc;
+	width: 74%;
+	margin: 10px 0;
+	width: 100%;
+}
+.single-wraper{
+	display: flex;
+	flex-direction: column;
+}
+.friend-request-feed{
+	width: 37%;
+	float: right;
+	margin-left: 2%;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	padding: 2px 4px;
+	text-align: center;
+}
+.feed-single-post-content p{
+	font-size: 15px;
+	padding-top: 15px;
+}
+.friend-request-feed h3{
+	font-size: 14px;
+	padding: 10px 0;
+}
+.friend-request-single{
+align-items: center;	
+display: flex;	
+margin-bottom: 13px;
+border-bottom: 1px solid #ccc;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 9px;
+
+}
+.friend-request-single img{
+width:35px;
+height: 35px;
+border-radius: 50%;}
+
+.friend-request-single-info{
+font-size: 12px;
+color: #454545;
+padding-left: 7px;}
+.friend-request-single-info a{
+	color: #069;
+	text-decoration:none;
+}
+.feed-single-post-author{
+	display: flex;
+	color: #454545;
+	flex-wrap: wrap;
+}
+.feed-single-post-author img{
+width:40px;
+height: 40px;
+border-radius: 50%;
+}
+.feed-single-post-author{
+	background: rgba(200,200,200,0.1);
+	box-shadow: 2px 2px 9px 2px rgba(200,200,200,0.1);
+	padding: 4px 0;
+}
+
+.feed-single-post-author h3{
+	font-size: 15px;
+}
+
+.feed-single-post-author p{
+	font-size: 12px;
+	opacity: 0.7;
+	width: 100%;
+	margin-top: 4px;
+}
+.feed-single-post-author-info{
+	padding: 2px 9px;
+}
